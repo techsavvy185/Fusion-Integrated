@@ -7,6 +7,26 @@ guards on, and every designation column is one the IAM can grant.
 For the intended taxonomy of modules not yet built, see
 [permission-catalog.md](permission-catalog.md).
 
+## `cms`
+
+| Code | What it allows | Held by |
+|---|---|---|
+| `cms.complaint.view` | View complaints within the caller's role scope | `Complaint Handler`, `Complaint Supervisor`, `faculty`, `staff`, `student` |
+| `cms.complaint.create` | Submit a new complaint | `faculty`, `staff`, `student` |
+| `cms.complaint.assign` | Manually assign, categorize, and prioritize a complaint | `Complaint Handler` |
+| `cms.complaint.update` | Update complaint progress, resolve, reject, or escalate a complaint | `Complaint Handler` |
+| `cms.complaint.approve` | Verify a resolved complaint for closure | `Complaint Supervisor`, `faculty`, `staff`, `student` |
+| `cms.reopen_request.create` | Request reopening of a closed complaint | `faculty`, `staff`, `student` |
+| `cms.reopen_request.approve` | Review and approve or deny complaint reopening requests | `Complaint Supervisor` |
+| `cms.feedback.create` | Submit feedback on a resolved or closed complaint | `faculty`, `staff`, `student` |
+| `cms.feedback.review` | Review submitted complaint feedback | `Complaint Handler`, `Complaint Supervisor` |
+| `cms.escalation.view` | Monitor escalated complaints | `Complaint Supervisor` |
+| `cms.announcement.view` | View complaint-related announcements | `Complaint Handler`, `Complaint Supervisor`, `faculty`, `staff`, `student` |
+| `cms.announcement.publish` | Publish complaint-related announcements | `Complaint Handler`, `Complaint Supervisor` |
+| `cms.report.view` | View role-appropriate complaint reports, summaries, and analytics | `Complaint Handler`, `Complaint Supervisor`, `adminstrator` |
+| `cms.policy.manage` | Manage complaint categories and effective-dated SLA/attachment policy | `adminstrator` |
+| `cms.sla.update` | System SLA pre-breach reminder and automatic breach escalation | _service only_ |
+
 ## `directory`
 
 | Code | What it allows | Held by |
