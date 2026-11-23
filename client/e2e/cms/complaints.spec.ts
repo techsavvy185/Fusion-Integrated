@@ -15,8 +15,8 @@ test.describe("cms: student complaint submission and tracking", () => {
 
     await page.getByRole("button", { name: "Submit complaint" }).click();
     const dialog = page.getByRole("dialog");
-    await dialog.getByLabel("Category").click();
-    await page.getByRole("option").first().click();
+    await dialog.getByRole("textbox", { name: "Category" }).click();
+    await page.getByRole("listbox", { name: "Category" }).getByRole("option").first().click();
     await dialog.getByLabel("Title").fill(title);
     await dialog.getByLabel("Description").fill("Automated E2E verification description.");
 

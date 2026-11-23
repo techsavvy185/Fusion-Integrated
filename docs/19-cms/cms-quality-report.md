@@ -95,16 +95,35 @@ CMS tasks: reminded=0 escalated=0 dispatched=0
 ```
 Throwaway database `fusion_integrated_fresh` was dropped cleanly after verification.
 
-## 8. Browser Walkthrough & Playwright E2E Status (Step 6.9)
+## 8. Browser Walkthrough & Playwright E2E Verification (Step 6.9)
 
-Playwright specs are written under `client/e2e/cms/` (`route-guards.spec.ts`, `complaints.spec.ts`, `handler-and-supervisor.spec.ts`) and type-checked cleanly via `tsc --noEmit -p e2e`.
+Executed `make e2e` against live IAM (`:8001`), live `make dev` (`:8002`), and Vite (`:5173`): **`21 passed (9.0s)`** (zero console errors, zero 500s, including keyboard-only complaint submission and all 5 guarded route deep-link refusals).
 
-| Role | Synthetic Account | Use Cases Covered | Spec File | Status |
+| Role | Synthetic Account | Use Cases Covered | Spec File | Result |
 |---|---|---|---|---|
-| Plain User (`student`) | `stu00001` | `UC-CMS-001`, `UC-CMS-002`, `UC-CMS-014`, Guarded route 403/NotPermitted | `client/e2e/cms/complaints.spec.ts`, `client/e2e/cms/route-guards.spec.ts` | Not run (IAM server on port 8001 and `make dev` not running during build session; run `make e2e` with IAM + `make dev` live) |
-| `Complaint Handler` | `stf00063` | `UC-CMS-013`, `UC-CMS-015` | `client/e2e/cms/handler-and-supervisor.spec.ts` | Not run (requires IAM on 8001 + `make dev`) |
-| `Complaint Supervisor` | `fac00001` | `UC-CMS-012`, `UC-CMS-016`, `UC-CMS-020` | `client/e2e/cms/handler-and-supervisor.spec.ts` | Not run (requires IAM on 8001 + `make dev`) |
-| `adminstrator` | `stf00064` | `UC-CMS-017`, CMS Policy | `client/e2e/cms/handler-and-supervisor.spec.ts` | Not run (requires IAM on 8001 + `make dev`) |
+| Plain User (`student`) | `stu00001` | `UC-CMS-001`, `UC-CMS-002`, `UC-CMS-014`, Keyboard-only Tab+Enter flow, Guarded routes (`/cms/escalations`, `/cms/reopen-requests`, `/cms/feedback`, `/cms/reports`, `/cms/policy`) | `client/e2e/cms/complaints.spec.ts`, `client/e2e/cms/lifecycle.spec.ts`, `client/e2e/cms/route-guards.spec.ts` | **PASS** |
+| `Complaint Handler` | `stf00063` | `UC-CMS-003`, `UC-CMS-004`, `UC-CMS-005`, `UC-CMS-006`, `UC-CMS-010`, `UC-CMS-013`, `UC-CMS-015` | `client/e2e/cms/lifecycle.spec.ts`, `client/e2e/cms/handler-and-supervisor.spec.ts` | **PASS** |
+| `Complaint Supervisor` | `fac00001` | `UC-CMS-012`, `UC-CMS-016`, `UC-CMS-020` | `client/e2e/cms/handler-and-supervisor.spec.ts` | **PASS** |
+| `adminstrator` | `stf00064` | `UC-CMS-017`, CMS Policy & Categories | `client/e2e/cms/handler-and-supervisor.spec.ts` | **PASS** |
+
+### Captured `runserver` Request Logs from Browser Walkthrough (`make e2e`)
+```text
+[23/Nov/2026 17:42:45] "GET /api/v1/cms/categories/ HTTP/1.1" 200 919
+[23/Nov/2026 17:42:46] "GET /api/v1/cms/announcements/ HTTP/1.1" 200 707
+[23/Nov/2026 17:42:47] "POST /api/v1/cms/complaints/ HTTP/1.1" 201 1093
+[23/Nov/2026 17:42:48] "POST /api/v1/cms/announcements/ HTTP/1.1" 201 221
+[23/Nov/2026 17:42:48] "GET /api/v1/cms/complaints/?escalated=true HTTP/1.1" 200 42
+[23/Nov/2026 17:42:48] "GET /api/v1/cms/reports/analytics/ HTTP/1.1" 200 451
+[23/Nov/2026 17:42:48] "GET /api/v1/cms/reopen-requests/ HTTP/1.1" 200 42
+[23/Nov/2026 17:42:48] "GET /api/v1/cms/policy/ HTTP/1.1" 200 418
+[23/Nov/2026 17:42:49] "GET /api/v1/cms/reports/operational/ HTTP/1.1" 200 238
+[23/Nov/2026 17:42:49] "GET /api/v1/cms/reports/escalations/ HTTP/1.1" 200 192
+[23/Nov/2026 17:42:50] "POST /api/v1/cms/complaints/ HTTP/1.1" 201 1099
+[23/Nov/2026 17:42:50] "POST /api/v1/cms/complaints/4/handling-setup/ HTTP/1.1" 200 1408
+[23/Nov/2026 17:42:50] "POST /api/v1/cms/complaints/4/progress/ HTTP/1.1" 200 1640
+[23/Nov/2026 17:42:51] "POST /api/v1/cms/complaints/4/resolve/ HTTP/1.1" 200 1903
+[23/Nov/2026 17:42:51] "GET /api/v1/cms/feedback/ HTTP/1.1" 200 42
+```
 
 ## 9. Manual Execution of Scheduled Tasks
 
