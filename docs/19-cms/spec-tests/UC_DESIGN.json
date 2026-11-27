@@ -1,0 +1,398 @@
+[
+  {
+    "test_id": "TEST-UC-001",
+    "source_id": "UC-CMS-001 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-001: Submit Complaint",
+    "preconditions": "Valid preconditions established for UC-CMS-001",
+    "action_or_input": "Execute standard main success path of UC-CMS-001 (Submit Complaint)",
+    "expected_result": "Successfully completes UC-CMS-001 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-002",
+    "source_id": "UC-CMS-001 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-001: Submit Complaint",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-001",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-001",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-003",
+    "source_id": "UC-CMS-002 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-002: Track Submitted Complaint Status and History",
+    "preconditions": "Valid preconditions established for UC-CMS-002",
+    "action_or_input": "Execute standard main success path of UC-CMS-002 (Track Submitted Complaint Status and History)",
+    "expected_result": "Successfully completes UC-CMS-002 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-004",
+    "source_id": "UC-CMS-002 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-002: Track Submitted Complaint Status and History",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-002",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-002",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-005",
+    "source_id": "UC-CMS-003 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-003: Review Assigned Complaints",
+    "preconditions": "Valid preconditions established for UC-CMS-003",
+    "action_or_input": "Execute standard main success path of UC-CMS-003 (Review Assigned Complaints)",
+    "expected_result": "Successfully completes UC-CMS-003 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-006",
+    "source_id": "UC-CMS-003 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-003: Review Assigned Complaints",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-003",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-003",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-007",
+    "source_id": "UC-CMS-004 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-004: Assign, Categorize, and Prioritize Complaint",
+    "preconditions": "Valid preconditions established for UC-CMS-004",
+    "action_or_input": "Execute standard main success path of UC-CMS-004 (Assign, Categorize, and Prioritize Complaint)",
+    "expected_result": "Successfully completes UC-CMS-004 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-008",
+    "source_id": "UC-CMS-004 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-004: Assign, Categorize, and Prioritize Complaint",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-004",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-004",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-009",
+    "source_id": "UC-CMS-005 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-005: Update Complaint Progress",
+    "preconditions": "Valid preconditions established for UC-CMS-005",
+    "action_or_input": "Execute standard main success path of UC-CMS-005 (Update Complaint Progress)",
+    "expected_result": "Successfully completes UC-CMS-005 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-010",
+    "source_id": "UC-CMS-005 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-005: Update Complaint Progress",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-005",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-005",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-011",
+    "source_id": "UC-CMS-006 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-006: Resolve or Reject Complaint",
+    "preconditions": "Valid preconditions established for UC-CMS-006",
+    "action_or_input": "Execute standard main success path of UC-CMS-006 (Resolve or Reject Complaint)",
+    "expected_result": "Successfully completes UC-CMS-006 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-012",
+    "source_id": "UC-CMS-006 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-006: Resolve or Reject Complaint",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-006",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-006",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-013",
+    "source_id": "UC-CMS-007 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-007: Verify Resolved Complaint for Closure (User / Complainant)",
+    "preconditions": "Valid preconditions established for UC-CMS-007",
+    "action_or_input": "Execute standard main success path of UC-CMS-007 (Verify Resolved Complaint for Closure (User / Complainant))",
+    "expected_result": "Successfully completes UC-CMS-007 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-014",
+    "source_id": "UC-CMS-007 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-007: Verify Resolved Complaint for Closure (User / Complainant)",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-007",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-007",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-015",
+    "source_id": "UC-CMS-008 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-008: Request Complaint Reopening",
+    "preconditions": "Valid preconditions established for UC-CMS-008",
+    "action_or_input": "Execute standard main success path of UC-CMS-008 (Request Complaint Reopening)",
+    "expected_result": "Successfully completes UC-CMS-008 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-016",
+    "source_id": "UC-CMS-008 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-008: Request Complaint Reopening",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-008",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-008",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-017",
+    "source_id": "UC-CMS-009 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-009: Submit Feedback",
+    "preconditions": "Valid preconditions established for UC-CMS-009",
+    "action_or_input": "Execute standard main success path of UC-CMS-009 (Submit Feedback)",
+    "expected_result": "Successfully completes UC-CMS-009 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-018",
+    "source_id": "UC-CMS-009 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-009: Submit Feedback",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-009",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-009",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-019",
+    "source_id": "UC-CMS-010 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-010: Review Submitted Feedback",
+    "preconditions": "Valid preconditions established for UC-CMS-010",
+    "action_or_input": "Execute standard main success path of UC-CMS-010 (Review Submitted Feedback)",
+    "expected_result": "Successfully completes UC-CMS-010 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-020",
+    "source_id": "UC-CMS-010 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-010: Review Submitted Feedback",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-010",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-010",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-021",
+    "source_id": "UC-CMS-011 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-011: Manually Escalate Unresolved Complaint",
+    "preconditions": "Valid preconditions established for UC-CMS-011",
+    "action_or_input": "Execute standard main success path of UC-CMS-011 (Manually Escalate Unresolved Complaint)",
+    "expected_result": "Successfully completes UC-CMS-011 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-022",
+    "source_id": "UC-CMS-011 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-011: Manually Escalate Unresolved Complaint",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-011",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-011",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-023",
+    "source_id": "UC-CMS-012 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-012: Monitor Escalated Complaints",
+    "preconditions": "Valid preconditions established for UC-CMS-012",
+    "action_or_input": "Execute standard main success path of UC-CMS-012 (Monitor Escalated Complaints)",
+    "expected_result": "Successfully completes UC-CMS-012 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-024",
+    "source_id": "UC-CMS-012 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-012: Monitor Escalated Complaints",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-012",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-012",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-025",
+    "source_id": "UC-CMS-013 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-013: Publish Complaint-Related Announcement",
+    "preconditions": "Valid preconditions established for UC-CMS-013",
+    "action_or_input": "Execute standard main success path of UC-CMS-013 (Publish Complaint-Related Announcement)",
+    "expected_result": "Successfully completes UC-CMS-013 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-026",
+    "source_id": "UC-CMS-013 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-013: Publish Complaint-Related Announcement",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-013",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-013",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-027",
+    "source_id": "UC-CMS-014 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-014: View Complaint-Related Announcements",
+    "preconditions": "Valid preconditions established for UC-CMS-014",
+    "action_or_input": "Execute standard main success path of UC-CMS-014 (View Complaint-Related Announcements)",
+    "expected_result": "Successfully completes UC-CMS-014 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-028",
+    "source_id": "UC-CMS-014 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-014: View Complaint-Related Announcements",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-014",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-014",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-029",
+    "source_id": "UC-CMS-015 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-015: Generate Operational Complaint Reports",
+    "preconditions": "Valid preconditions established for UC-CMS-015",
+    "action_or_input": "Execute standard main success path of UC-CMS-015 (Generate Operational Complaint Reports)",
+    "expected_result": "Successfully completes UC-CMS-015 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-030",
+    "source_id": "UC-CMS-015 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-015: Generate Operational Complaint Reports",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-015",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-015",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-031",
+    "source_id": "UC-CMS-016 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-016: View Complaint and Escalation Summaries",
+    "preconditions": "Valid preconditions established for UC-CMS-016",
+    "action_or_input": "Execute standard main success path of UC-CMS-016 (View Complaint and Escalation Summaries)",
+    "expected_result": "Successfully completes UC-CMS-016 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-032",
+    "source_id": "UC-CMS-016 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-016: View Complaint and Escalation Summaries",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-016",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-016",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-033",
+    "source_id": "UC-CMS-017 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-017: View CMS Reports and Analytics",
+    "preconditions": "Valid preconditions established for UC-CMS-017",
+    "action_or_input": "Execute standard main success path of UC-CMS-017 (View CMS Reports and Analytics)",
+    "expected_result": "Successfully completes UC-CMS-017 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-034",
+    "source_id": "UC-CMS-017 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-017: View CMS Reports and Analytics",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-017",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-017",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-035",
+    "source_id": "UC-CMS-018 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-018: Manage CMS Roles",
+    "preconditions": "Valid preconditions established for UC-CMS-018",
+    "action_or_input": "Execute standard main success path of UC-CMS-018 (Manage CMS Roles)",
+    "expected_result": "Successfully completes UC-CMS-018 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-036",
+    "source_id": "UC-CMS-018 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-018: Manage CMS Roles",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-018",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-018",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-037",
+    "source_id": "UC-CMS-019 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-019: Verify Resolved Complaint for Closure (Complaint Supervisor)",
+    "preconditions": "Valid preconditions established for UC-CMS-019",
+    "action_or_input": "Execute standard main success path of UC-CMS-019 (Verify Resolved Complaint for Closure (Complaint Supervisor))",
+    "expected_result": "Successfully completes UC-CMS-019 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-038",
+    "source_id": "UC-CMS-019 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-019: Verify Resolved Complaint for Closure (Complaint Supervisor)",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-019",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-019",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-039",
+    "source_id": "UC-CMS-020 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-020: Review Complaint Reopening Request",
+    "preconditions": "Valid preconditions established for UC-CMS-020",
+    "action_or_input": "Execute standard main success path of UC-CMS-020 (Review Complaint Reopening Request)",
+    "expected_result": "Successfully completes UC-CMS-020 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-040",
+    "source_id": "UC-CMS-020 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-020: Review Complaint Reopening Request",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-020",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-020",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-041",
+    "source_id": "UC-CMS-021 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-021: Trigger Pre-Breach SLA Reminder",
+    "preconditions": "Valid preconditions established for UC-CMS-021",
+    "action_or_input": "Execute standard main success path of UC-CMS-021 (Trigger Pre-Breach SLA Reminder)",
+    "expected_result": "Successfully completes UC-CMS-021 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-042",
+    "source_id": "UC-CMS-021 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-021: Trigger Pre-Breach SLA Reminder",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-021",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-021",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  },
+  {
+    "test_id": "TEST-UC-043",
+    "source_id": "UC-CMS-022 Main Flow",
+    "purpose": "Verify main success flow of UC-CMS-022: Automatically Escalate Complaint on SLA Breach",
+    "preconditions": "Valid preconditions established for UC-CMS-022",
+    "action_or_input": "Execute standard main success path of UC-CMS-022 (Automatically Escalate Complaint on SLA Breach)",
+    "expected_result": "Successfully completes UC-CMS-022 and establishes postconditions",
+    "test_type": "Use Case / Main Flow"
+  },
+  {
+    "test_id": "TEST-UC-044",
+    "source_id": "UC-CMS-022 Alternative / Exception Flow",
+    "purpose": "Verify alternative or exception handling for UC-CMS-022: Automatically Escalate Complaint on SLA Breach",
+    "preconditions": "Boundary or invalid actor condition for UC-CMS-022",
+    "action_or_input": "Trigger exception or alternative branch in UC-CMS-022",
+    "expected_result": "Graceful refusal or handled alternative path per specification",
+    "test_type": "Use Case / Exception Flow"
+  }
+]

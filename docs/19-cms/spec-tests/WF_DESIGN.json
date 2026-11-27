@@ -1,0 +1,101 @@
+[
+  {
+    "test_id": "TEST-WF-001",
+    "source_id": "BW-CMS-01 standard-path",
+    "purpose": "Verify standard execution path of workflow BW-CMS-01",
+    "preconditions": "BW-CMS-01 initial state established",
+    "action_or_input": "Step through transitions of BW-CMS-01",
+    "expected_result": "Workflow BW-CMS-01 terminates in valid end state per STT",
+    "test_type": "Workflow / Basis"
+  },
+  {
+    "test_id": "TEST-WF-002",
+    "source_id": "BW-CMS-02 standard-path",
+    "purpose": "Verify standard execution path of workflow BW-CMS-02",
+    "preconditions": "BW-CMS-02 initial state established",
+    "action_or_input": "Step through transitions of BW-CMS-02",
+    "expected_result": "Workflow BW-CMS-02 terminates in valid end state per STT",
+    "test_type": "Workflow / Basis"
+  },
+  {
+    "test_id": "TEST-WF-003",
+    "source_id": "BW-CMS-03 standard-path",
+    "purpose": "Verify standard execution path of workflow BW-CMS-03",
+    "preconditions": "BW-CMS-03 initial state established",
+    "action_or_input": "Step through transitions of BW-CMS-03",
+    "expected_result": "Workflow BW-CMS-03 terminates in valid end state per STT",
+    "test_type": "Workflow / Basis"
+  },
+  {
+    "test_id": "TEST-WF-004",
+    "source_id": "BW-CMS-04 standard-path",
+    "purpose": "Verify standard execution path of workflow BW-CMS-04",
+    "preconditions": "BW-CMS-04 initial state established",
+    "action_or_input": "Step through transitions of BW-CMS-04",
+    "expected_result": "Workflow BW-CMS-04 terminates in valid end state per STT",
+    "test_type": "Workflow / Basis"
+  },
+  {
+    "test_id": "TEST-WF-005",
+    "source_id": "BW-CMS-05 standard-path",
+    "purpose": "Verify standard execution path of workflow BW-CMS-05",
+    "preconditions": "BW-CMS-05 initial state established",
+    "action_or_input": "Step through transitions of BW-CMS-05",
+    "expected_result": "Workflow BW-CMS-05 terminates in valid end state per STT",
+    "test_type": "Workflow / Basis"
+  },
+  {
+    "test_id": "TEST-WF-006",
+    "source_id": "BW-CMS-06 standard-path",
+    "purpose": "Verify standard execution path of workflow BW-CMS-06",
+    "preconditions": "BW-CMS-06 initial state established",
+    "action_or_input": "Step through transitions of BW-CMS-06",
+    "expected_result": "Workflow BW-CMS-06 terminates in valid end state per STT",
+    "test_type": "Workflow / Basis"
+  },
+  {
+    "test_id": "TEST-WF-007",
+    "source_id": "BW-CMS-07 standard-path",
+    "purpose": "Verify standard execution path of workflow BW-CMS-07",
+    "preconditions": "BW-CMS-07 initial state established",
+    "action_or_input": "Step through transitions of BW-CMS-07",
+    "expected_result": "Workflow BW-CMS-07 terminates in valid end state per STT",
+    "test_type": "Workflow / Basis"
+  },
+  {
+    "test_id": "TEST-WF-008",
+    "source_id": "BW-CMS-08 standard-path",
+    "purpose": "Verify standard execution path of workflow BW-CMS-08",
+    "preconditions": "BW-CMS-08 initial state established",
+    "action_or_input": "Step through transitions of BW-CMS-08",
+    "expected_result": "Workflow BW-CMS-08 terminates in valid end state per STT",
+    "test_type": "Workflow / Basis"
+  },
+  {
+    "test_id": "TEST-WF-009",
+    "source_id": "CW-CMS-01 composite-path",
+    "purpose": "Verify end-to-end multi-party sequence of composite workflow CW-CMS-01",
+    "preconditions": "CW-CMS-01 prerequisites satisfied across all involved roles",
+    "action_or_input": "Execute complete lifecycle sequence for CW-CMS-01",
+    "expected_result": "Composite workflow CW-CMS-01 successfully completes all stages and transitions",
+    "test_type": "Workflow / Composite"
+  },
+  {
+    "test_id": "TEST-WF-010",
+    "source_id": "CW-CMS-02 composite-path",
+    "purpose": "Verify end-to-end multi-party sequence of composite workflow CW-CMS-02",
+    "preconditions": "CW-CMS-02 prerequisites satisfied across all involved roles",
+    "action_or_input": "Execute complete lifecycle sequence for CW-CMS-02",
+    "expected_result": "Composite workflow CW-CMS-02 successfully completes all stages and transitions",
+    "test_type": "Workflow / Composite"
+  },
+  {
+    "test_id": "TEST-WF-011",
+    "source_id": "CW-CMS-03 composite-path",
+    "purpose": "Verify end-to-end multi-party sequence of composite workflow CW-CMS-03",
+    "preconditions": "CW-CMS-03 prerequisites satisfied across all involved roles",
+    "action_or_input": "Execute complete lifecycle sequence for CW-CMS-03",
+    "expected_result": "Composite workflow CW-CMS-03 successfully completes all stages and transitions",
+    "test_type": "Workflow / Composite"
+  }
+]

@@ -1,0 +1,740 @@
+[
+  {
+    "test_id": "TEST-BR-001",
+    "source_id": "BR-CMS-001 condition-satisfied",
+    "purpose": "Verify BR-CMS-001 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-001",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-002",
+    "source_id": "BR-CMS-001 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-001 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-001",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-003",
+    "source_id": "BR-CMS-002 condition-satisfied",
+    "purpose": "Verify BR-CMS-002 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-002",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-004",
+    "source_id": "BR-CMS-002 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-002 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-002",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-005",
+    "source_id": "BR-CMS-003 condition-satisfied",
+    "purpose": "Verify BR-CMS-003 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-003",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-006",
+    "source_id": "BR-CMS-003 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-003 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-003",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-007",
+    "source_id": "BR-CMS-004 condition-satisfied",
+    "purpose": "Verify BR-CMS-004 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-004",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-008",
+    "source_id": "BR-CMS-004 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-004 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-004",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-009",
+    "source_id": "BR-CMS-005 condition-satisfied",
+    "purpose": "Verify BR-CMS-005 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-005",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-010",
+    "source_id": "BR-CMS-005 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-005 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-005",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-011",
+    "source_id": "BR-CMS-006 condition-satisfied",
+    "purpose": "Verify BR-CMS-006 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-006",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-012",
+    "source_id": "BR-CMS-006 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-006 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-006",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-013",
+    "source_id": "BR-CMS-007 condition-satisfied",
+    "purpose": "Verify BR-CMS-007 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-007",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-014",
+    "source_id": "BR-CMS-007 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-007 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-007",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-015",
+    "source_id": "BR-CMS-008 condition-satisfied",
+    "purpose": "Verify BR-CMS-008 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-008",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-016",
+    "source_id": "BR-CMS-008 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-008 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-008",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-017",
+    "source_id": "BR-CMS-009 condition-satisfied",
+    "purpose": "Verify BR-CMS-009 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-009",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-018",
+    "source_id": "BR-CMS-009 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-009 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-009",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-019",
+    "source_id": "BR-CMS-010 condition-satisfied",
+    "purpose": "Verify BR-CMS-010 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-010",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-020",
+    "source_id": "BR-CMS-010 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-010 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-010",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-021",
+    "source_id": "BR-CMS-011 condition-satisfied",
+    "purpose": "Verify BR-CMS-011 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-011",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-022",
+    "source_id": "BR-CMS-011 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-011 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-011",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-023",
+    "source_id": "BR-CMS-012 condition-satisfied",
+    "purpose": "Verify BR-CMS-012 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-012",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-024",
+    "source_id": "BR-CMS-012 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-012 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-012",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-025",
+    "source_id": "BR-CMS-013 condition-satisfied",
+    "purpose": "Verify BR-CMS-013 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-013",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-026",
+    "source_id": "BR-CMS-013 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-013 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-013",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-027",
+    "source_id": "BR-CMS-014 condition-satisfied",
+    "purpose": "Verify BR-CMS-014 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-014",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-028",
+    "source_id": "BR-CMS-014 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-014 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-014",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-029",
+    "source_id": "BR-CMS-015 condition-satisfied",
+    "purpose": "Verify BR-CMS-015 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-015",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-030",
+    "source_id": "BR-CMS-015 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-015 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-015",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-031",
+    "source_id": "BR-CMS-016 condition-satisfied",
+    "purpose": "Verify BR-CMS-016 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-016",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-032",
+    "source_id": "BR-CMS-016 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-016 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-016",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-033",
+    "source_id": "BR-CMS-017 condition-satisfied",
+    "purpose": "Verify BR-CMS-017 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-017",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-034",
+    "source_id": "BR-CMS-017 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-017 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-017",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-035",
+    "source_id": "BR-CMS-018 condition-satisfied",
+    "purpose": "Verify BR-CMS-018 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-018",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-036",
+    "source_id": "BR-CMS-018 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-018 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-018",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-037",
+    "source_id": "BR-CMS-019 condition-satisfied",
+    "purpose": "Verify BR-CMS-019 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-019",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-038",
+    "source_id": "BR-CMS-019 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-019 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-019",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-039",
+    "source_id": "BR-CMS-020 condition-satisfied",
+    "purpose": "Verify BR-CMS-020 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-020",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-040",
+    "source_id": "BR-CMS-020 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-020 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-020",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-041",
+    "source_id": "BR-CMS-021 condition-satisfied",
+    "purpose": "Verify BR-CMS-021 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-021",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-042",
+    "source_id": "BR-CMS-021 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-021 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-021",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-043",
+    "source_id": "BR-CMS-022 condition-satisfied",
+    "purpose": "Verify BR-CMS-022 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-022",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-044",
+    "source_id": "BR-CMS-022 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-022 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-022",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-045",
+    "source_id": "BR-CMS-023 condition-satisfied",
+    "purpose": "Verify BR-CMS-023 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-023",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-046",
+    "source_id": "BR-CMS-023 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-023 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-023",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-047",
+    "source_id": "BR-CMS-024 condition-satisfied",
+    "purpose": "Verify BR-CMS-024 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-024",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-048",
+    "source_id": "BR-CMS-024 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-024 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-024",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-049",
+    "source_id": "BR-CMS-025 condition-satisfied",
+    "purpose": "Verify BR-CMS-025 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-025",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-050",
+    "source_id": "BR-CMS-025 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-025 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-025",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-051",
+    "source_id": "BR-CMS-026 condition-satisfied",
+    "purpose": "Verify BR-CMS-026 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-026",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-052",
+    "source_id": "BR-CMS-026 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-026 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-026",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-053",
+    "source_id": "BR-CMS-027 condition-satisfied",
+    "purpose": "Verify BR-CMS-027 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-027",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-054",
+    "source_id": "BR-CMS-027 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-027 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-027",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-055",
+    "source_id": "BR-CMS-028 condition-satisfied",
+    "purpose": "Verify BR-CMS-028 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-028",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-056",
+    "source_id": "BR-CMS-028 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-028 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-028",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-057",
+    "source_id": "BR-CMS-029 condition-satisfied",
+    "purpose": "Verify BR-CMS-029 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-029",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-058",
+    "source_id": "BR-CMS-029 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-029 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-029",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-059",
+    "source_id": "BR-CMS-030 condition-satisfied",
+    "purpose": "Verify BR-CMS-030 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-030",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-060",
+    "source_id": "BR-CMS-030 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-030 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-030",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-061",
+    "source_id": "BR-CMS-031 condition-satisfied",
+    "purpose": "Verify BR-CMS-031 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-031",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-062",
+    "source_id": "BR-CMS-031 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-031 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-031",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-063",
+    "source_id": "BR-CMS-032 condition-satisfied",
+    "purpose": "Verify BR-CMS-032 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-032",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-064",
+    "source_id": "BR-CMS-032 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-032 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-032",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-065",
+    "source_id": "BR-CMS-033 condition-satisfied",
+    "purpose": "Verify BR-CMS-033 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-033",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-066",
+    "source_id": "BR-CMS-033 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-033 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-033",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-067",
+    "source_id": "BR-CMS-034 condition-satisfied",
+    "purpose": "Verify BR-CMS-034 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-034",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-068",
+    "source_id": "BR-CMS-034 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-034 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-034",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-069",
+    "source_id": "BR-CMS-035 condition-satisfied",
+    "purpose": "Verify BR-CMS-035 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-035",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-070",
+    "source_id": "BR-CMS-035 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-035 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-035",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-071",
+    "source_id": "BR-CMS-036 condition-satisfied",
+    "purpose": "Verify BR-CMS-036 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-036",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-072",
+    "source_id": "BR-CMS-036 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-036 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-036",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-073",
+    "source_id": "BR-CMS-037 condition-satisfied",
+    "purpose": "Verify BR-CMS-037 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-037",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-074",
+    "source_id": "BR-CMS-037 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-037 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-037",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-075",
+    "source_id": "BR-CMS-038 condition-satisfied",
+    "purpose": "Verify BR-CMS-038 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-038",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-076",
+    "source_id": "BR-CMS-038 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-038 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-038",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-077",
+    "source_id": "BR-CMS-039 condition-satisfied",
+    "purpose": "Verify BR-CMS-039 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-039",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-078",
+    "source_id": "BR-CMS-039 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-039 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-039",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-079",
+    "source_id": "BR-CMS-040 condition-satisfied",
+    "purpose": "Verify BR-CMS-040 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-040",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-080",
+    "source_id": "BR-CMS-040 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-040 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-040",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  },
+  {
+    "test_id": "TEST-BR-081",
+    "source_id": "BR-CMS-041 condition-satisfied",
+    "purpose": "Verify BR-CMS-041 enforcement when rule condition is satisfied",
+    "preconditions": "Input parameters or state meet rule criteria",
+    "action_or_input": "Execute operation governed by BR-CMS-041",
+    "expected_result": "Operation proceeds and rule constraints are satisfied",
+    "test_type": "Business Rule / Positive"
+  },
+  {
+    "test_id": "TEST-BR-082",
+    "source_id": "BR-CMS-041 condition-violated",
+    "purpose": "Verify refusal/guard enforcement for BR-CMS-041 when rule condition is violated",
+    "preconditions": "Input parameters or state violate rule constraints",
+    "action_or_input": "Attempt operation violating BR-CMS-041",
+    "expected_result": "Action is refused, state unchanged, appropriate error returned",
+    "test_type": "Business Rule / Negative"
+  }
+]
